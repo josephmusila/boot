@@ -1,0 +1,38 @@
+.nav{
+	background-color: aqua;
+	margin-bottom: 20px
+	position: absolute;
+
+}
+.navbar-toggle{
+	height: 20px;
+	color: green;
+	box-shadow: 10px 5px 10px 5px;
+	margin-right: 20px;
+
+}
+.navbar-toggle:hover{
+	color: red;
+}
+.container{
+	background-image:repeating-radial-gradient(red,yellow,aqua);
+}
+.boot{
+	height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition-timing-function: ease;
+    transition-property: width,background-color;
+    transition-duration: 2s;
+
+}
+.boot:hover{
+	width:200px;
+	background-color: red;
+}
+	
+    
+
